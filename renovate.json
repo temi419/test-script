@@ -1,3 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
+{
+  "branchRules": [
+    {
+      "branches": ["master"],
+      "automerge": true,
+      "automergeType": "pr",
+      "labels": ["renovate"]
+    }
+  ]
+}
